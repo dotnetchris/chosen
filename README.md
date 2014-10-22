@@ -9,18 +9,18 @@ For **documentation**, usage, and examples, see:
 http://harvesthq.github.io/chosen/
 
 For **downloads**, see:
-https://github.com/harvesthq/chosen/releases/
+https://github.com/koenpunt/chosen/releases/
 
 ### Bower Installation
 
 Chosen does _**not**_ currently support command-line `bower install chosen` installation. This is because the repo does not contain the compiled sources, and bower does not currently support adding a post-install/build step.
 
-However, you can specify that you'd like to use [the release ZIP](https://github.com/harvesthq/chosen/releases/latest), which includes the compiled and minified sources.
+However, you can specify that you'd like to use [the release ZIP](https://github.com/koenpunt/chosen/releases/latest), which includes the compiled and minified sources.
 
 Either install from the command line with
 
 ```
-$ bower install https://github.com/harvesthq/chosen/releases/download/v1.1.0/chosen_v1.1.0.zip
+$ bower install https://github.com/koenpunt/chosen/releases/download/v1.1.0/chosen_v1.1.0.zip
 ````
 
 or add Chosen to your own project's `bower.json` file, like:
@@ -31,7 +31,7 @@ or add Chosen to your own project's `bower.json` file, like:
   "version": "1.0.0",
   "dependencies": {
     "jquery": "1.11.0",
-    "chosen": "https://github.com/harvesthq/chosen/releases/download/v1.1.0/chosen_v1.1.0.zip"
+    "chosen": "https://github.com/koenpunt/chosen/releases/download/v1.1.0/chosen_v1.1.0.zip"
   }
 }
 ```
